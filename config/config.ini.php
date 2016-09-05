@@ -22,15 +22,15 @@ return array(
 	/* 网站相关配置 */
 
 	'SITE_COMMENT'            => true,  //
-	'SYS_MODE'                => '0',  //版本模式
+	'SYS_MODE'                => '2',  //版本模式
 	'SITE_ADMINLOG'           => true,  //后台操作日志开关
 	'SITE_BDPING'             => false,  //百度Ping推送
-	'SYS_ILLEGAL_CHAR'        => false,  //禁止非法字符提交
+	'SYS_ILLEGAL_CHAR'        => true,  //禁止非法字符提交
 	'SYS_MEMBER'              => false,  //禁止使用会员功能
 	'SYS_ATTACK_LOG'          => true,  //系统攻击日志开关
 	'SYS_ATTACK_MAIL'         => false,  //是否发送邮件通知管理员
 	'SITE_ADMIN_CODE'         => false,  //后台登录验证码开关
-	'SITE_ADMIN_PAGESIZE'     => '8',  //后台数据分页条数
+	'SITE_ADMIN_PAGESIZE'     => '10',  //后台数据分页条数
 	'SITE_SYSMAIL'            => '',  //用来接收网站的一些系统邮件
 	'SYS_GEE_CAPTCHA_ID'      => '053960849a89ff17c0e0858a821f3686',  //极验验证ID
 	'SYS_GEE_PRIVATE_KEY'     => '54140d3df408cef8be1904c2aa7fed8c',  //极验验证KEY
